@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magick-IA</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./CSS/reset.css"> 
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="./Imagens/logo.png" alt="Logo Magick-IA">
+    </header>
+    <main class="container">
+        <h1 class="produtos">Produtos</h1>
+        <div class="filtros">
+            <div class="categorias-cartas">
+                <label for="categoria">Categoria</label>
+                <select name="categoria" id="categoria">
+                    <option value="">Selecione uma Carta</option>
+                    <option value="comum">Comum</option>
+                    <option value="rara">Rara</option>
+                    <option value="épica">Épica</option>
+                </select>
+            </div>
+            <div class="preco-cartas">
+                <label for="preco">Preço máximo (R$)</label>
+                <input type="text" id="preco" class="preco" placeholder="Exp: 100,00">
+            </div>
+            <button class="btn-filtrar">Aplicar Filtros</button>
+        </div>
+        <ul class="cartas">
+
+            <li class="carta" data-categoria="Épica" data-preco="3000">
+                <img src="./Imagens/carta-arkanon.png" alt="Imagem Arkanon">
+
+                <div class="informacoes">
+                    <h2 class="nome-personagem">Arkanon</h2>
+                    <span class="categoria">Categoria: Épica</span>
+                    <span class="preco">R$ 3.000,00</span>
+                    <a href="http://wa.me/11930018206?text=Óla, quero comprar a carta Arkanon!" class="btn-comprar" target="_blank">Comprar</a>
+                </div>
+            </li>
+
+            <li class="carta" data-categoria="Épica" data-preco="4000">
+                <img src="./Imagens/carta-lymara.png" alt="Imagem Lymara">
+
+                <div class="informacoes">
+                    <h2 class="nome-personagem">Lymara</h2>
+                    <span class="categoria">Categoria: Épica</span>
+                    <span class="preco">R$ 4.000,00</span>
+                    Span>
+                    <a href="http://wa.me/11930018206?text=Óla, quero comprar a carta Lymara!" class="btn-comprar" target="_blank">Comprar</a>
+                </div>
+            </li>
+
+            <li class="carta" data-categoria="Comum" data-preco="800">
+                <img src="./Imagens/carta-kaelthar.png" alt="Imagem Kaelthar">
+
+                <div class="informacoes">
+                    <h2 class="nome-personagem">Kaeltharr</h2>
+                    <Span class="categoria">Categoria: Comum</Span>
+                    <Span class="preco">R$ 800</Span>
+                    Span>
+                    <a href="http://wa.me/11930018206?text=Óla, quero comprar a carta Kaeltharr!" class="btn-comprar" target="_blank">Comprar</a>
+                </div>
+            </li>
+
+            <li class="carta" data-categoria="Rara" data-preco="1500">
+                <img src="./Imagens/carta-maldrik.png" alt="Imagem Maldrik">
+
+                <div class="informacoes">
+                    <h2 class="nome-personagem">Maldrik</h2>
+                    <Span class="categoria">Categoria: Rara</Span>
+                    <Span class="preco">R$ 1.500,00</Span>
+                    Span>
+                    <a href="http://wa.me/11930018206?text=Óla, quero comprar a carta Maldrik!" class="btn-comprar" target="_blank">Comprar</a>
+                </div>
+            </li>
+
+            <li class="carta" data-categoria="Comum" data-preco="600">
+                <img src="./Imagens/carta-drahven.png" alt="Imagem drahven">
+
+                <div class="informacoes">
+                    <h2 class="nome-personagem">Drahven</h2>
+                    <span class="categoria">Categoria: Comum</span>
+                    <span class="preco">R$ 600</span>
+                    Span>
+                    <a href="http://wa.me/11930018206?text=Óla, quero comprar a carta Drahven!" class="btn-comprar" target="_blank">Comprar</a>
+                </div>
+            </li>
+
+            <li class="carta" data-categoria="Comum" data-preco="400">
+                <img src="./Imagens/carta-nyxsombra.png" alt="Imagem nxysombra">
+
+                <div class="informacoes">
+                    <h2 class="nome-personagem">Nxysombra</h2>
+                    <Span class="categoria">Categoria: Comum</Span>
+                    <Span class="preco">R$ 400</Span>
+                    Span>
+                    <a href="http://wa.me/11930018206?text=Óla, quero comprar a carta Nxysombra!" class="btn-comprar" target="_blank">Comprar</a>
+                </div>
+            </li>
+
+        </ul>
+    </main>
+    <footer class="rodape">
+        <p>@2025 - Todos os direitos reservados</p>
+    </footer>
+</body>
+
+</html>
+
